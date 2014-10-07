@@ -149,35 +149,35 @@ table {
 }
 
 /* Columns */
-.columns {
+.cases {
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 160px;
 }
-.columns .content {
+.cases .content {
     margin-top: 126px;
     padding: none;
     color: #1d1e21;
     text-align: center;
 }
-.columns h2 {
+.cases h2 {
     font-size: 44px;
     margin: 26px 0 50px;
     font-weight: 300;
 }
-.columns .devices {
+.cases .devices {
     display: flex;
 }
-.columns .devices > li {
+.cases .devices > li {
     width: 33.3333333%;
 }
-.columns .devices h3 {
+.cases .devices h3 {
     font-weight: 400;
     font-size: 25px;
     margin: 40px 0px 30px;
 
 }
-.columns .devices p {
+.cases .devices p {
     font-weight: 300;
     font-size: 21px;
 }
