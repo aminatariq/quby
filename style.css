@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 	line-height: 1;
 }
 ol, ul {
