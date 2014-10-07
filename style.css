@@ -54,6 +54,9 @@ table {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
 }
 .top-navigation > .content {
     height: 70px;
