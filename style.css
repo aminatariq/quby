@@ -178,7 +178,6 @@ table {
     font-weight: 400;
     font-size: 25px;
     margin: 40px 0px 30px;
-
 }
 .cases .devices p {
     font-weight: 300;
@@ -192,12 +191,16 @@ table {
     background-size: cover;
     height: 735px;
     overflow: auto;
+    padding: 15px 15px;
+    line-height: 1.538;
 } 
+.karma .content {
+	width: 33.3333333%;
+}
 .karma h3 {
 	margin-top: 280px;
     font-size: 50px;
 	color:#f15a29;
-	text-align:left;
 	font-weight:300;
     margin-top: 20px;
     font-size: 25px;
@@ -206,8 +209,6 @@ table {
 	color:#4c5058;
     font-weight: 400;
     font-size: 18px;
-    padding: 15px 15px;
-    line-height: 1.538;
 }
 
 /* Footer */
