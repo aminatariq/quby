@@ -140,3 +140,8 @@ table {
     color: white;
     font-size: 18px;
 }
+.introduction .learn button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
