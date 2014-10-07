@@ -48,6 +48,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -65,7 +66,6 @@ table {
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
-
 .links {
 	float:right; 
 	margin-top:25px;
@@ -105,4 +105,38 @@ table {
 .introduction h3 {
     margin-top: 20px;
     font-size: 25px;
+}
+
+/* Custom Buttons */
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.half.learn {
+    text-align: right;
+}
+.half.watch {
+    text-align: left;
+    padding: 16px 24px;
+    font-weight: 500;
+}
+.introduction .learn button {
+    width: 155px;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 24px;
+    color: white;
+    font-size: 18px;
 }
