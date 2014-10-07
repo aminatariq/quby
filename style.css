@@ -55,3 +55,6 @@ table {
     height: 70px;
     margin: 0 auto;
 }
+.content {padding: 0px 15px;}
+.links {float:right;}
+li {display:inline-block;}
