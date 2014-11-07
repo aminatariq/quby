@@ -51,6 +51,40 @@ table {
 	border-spacing: 0;
 }
 
+/* Links */
+/* unvisited link */
+a:link {
+    color: #2c72f1;
+}
+/* visited link */
+a:visited {
+    color: #2c72f1;
+}
+/* mouse over link */
+a:hover {
+    color: #d9400e;
+}
+/* selected link */
+a:active {
+    color: #2c72f1;
+}
+/* link decoration */
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+a {
+   margin-top: -100px;
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -90,8 +124,8 @@ table {
 
 /* Introduction Section */
 .introduction {
-    background-image: url(img/first-background.jpg);
-    background-position: center bottom;
+    background-image: url(img/devices.jpg);
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 735px;
@@ -99,24 +133,56 @@ table {
 }
 .introduction h1,
 .introduction h3 {
-    color: white;
     text-align: center;
     font-weight: 300;
 }
 .introduction h1 {
-    margin-top: 280px;
+    color:#2c72f1;
+    margin-top: 150px;
     font-size: 50px;
 }
 .introduction h3 {
-    margin-top: 20px;
+    color:white;
+    margin-top: 80px;
     font-size: 25px;
+}
+.introduction a:link {
+    color: white;
+}
+/* visited link */
+.introduction a:visited {
+    color: white;
+}
+/* mouse over link */
+.introduction a:hover {
+    color: white;
+}
+/* selected link */
+.introduction a:active {
+    color: white;
+}
+/* link decoration */
+.introduction a:link {
+    text-decoration: none;
+}
+.introduction a:visited {
+    text-decoration: none;
+}
+.introduction a:hover {
+    text-decoration: none;
+}
+.introduction a:active {
+    text-decoration: none;
+}
+.introduction a {
+   margin-top: -100px;
 }
 
 /* Custom Buttons */
 .introduction .buttons {
     color: white;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 .introduction .half {
     width: 49%;
@@ -134,10 +200,16 @@ table {
     padding: 16px 24px;
     font-weight: 500;
 }
+.popupBoxContent {
+    color:black;
+}
+.popupBoxContent a:link{
+    color:black;
+}
 .introduction .learn button {
     width: 155px;
-    background-color: #f15a29;
-    border-color: #f15a29;
+    background-color: #2c72f1;
+    border-color: #2c72f1;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
@@ -147,66 +219,96 @@ table {
 }
 .introduction .learn button:hover {
     background-color: #d9400e;
-    border-color: #cf3d0e;
+    border-color: #d9400e;
     cursor: pointer;
 }
 
-/* Columns */
-.cases {
+/* How it Works Section */
+.process {
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 160px;
+    height: 735px;
 }
-.cases .content {
+.process .content {
     margin-top: 126px;
     padding: none;
     color: #1d1e21;
     text-align: center;
 }
-.cases h2 {
+.process h2 {
+    color:#2c72f1;
     font-size: 44px;
     margin: 26px 0 50px;
     font-weight: 300;
 }
-.cases .devices {
+.process {
     display: flex;
 }
-.cases .devices > li {
+.process > li {
     width: 33.3333333%;
 }
-.cases .devices h3 {
+.process h3 {
     font-weight: 400;
     font-size: 25px;
     margin: 40px 0px 30px;
 }
-.cases .devices p {
+.process p {
     font-weight: 300;
     font-size: 21px;
 }
-/* Karma Section */
-.karma {
-    background-image: url(img/buy-now-bg.jpg);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* About Us Section */
+.about {
     height: 735px;
     overflow: auto;
     padding: 15px 15px;
     line-height: 1.538;
 } 
-.karma .content {
-	width: 33.3333333%;
+.about .half {
+    width: 49%;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 1.2;
 }
-.karma h3 {
-	margin-top: 280px;
-    font-size: 50px;
-	color:#f15a29;
-	font-weight:300;
-    margin-top: 20px;
-    font-size: 25px;
+.about h2 {
+    color:#2c72f1;
+    font-size: 44px;
+    margin: 26px 0 50px;
+    font-weight: 300;
+    text-align: center;
 }
-.karma p {
-	color:#4c5058;
+.about p {
+	color:black;
+    font-weight: 300;
+    font-size: 18px;
+}
+aside {
+    float:left;
+}
+
+/* Pricing Section */
+
+.pricing {
+    height: 735px;
+    overflow: auto;
+    padding: 15px 15px;
+    line-height: 1.538;
+} 
+.pricing .content {
+    width: 50%;
+}
+.pricing h2 {
+    text-align: center;
+    color:#2c72f1;
+    margin-top: 80px;
+    font-size: 44px;
+    margin: 26px 0 50px;
+    font-weight: 300;
+}
+.pricing p {
+    color:black;
     font-weight: 400;
     font-size: 18px;
 }
@@ -215,6 +317,12 @@ aside {
 }
 
 /* Footer */
+.social h2 {
+    color:#2c72f1;
+    font-size: 44px;
+    margin: 26px 0 50px;
+    font-weight: 300;
+}
 .social {
     background-color: #fff;
     overflow: auto;
@@ -248,3 +356,289 @@ aside {
 .social .instagram {
     color: #3f729b;
 }
+
+/* Grid Code */
+.grid {
+    /* grid code goes here... */
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.grid {
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 1em;
+}
+.grid, .row, [class*="-col"] {
+    padding: 0;
+    margin: 0;
+}
+.grid:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.grid:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row {
+  margin-bottom: 1em;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="-col"] {
+  float: left;
+  margin-right: 1.5%;
+}
+
+[class*="-col"]:last-child {
+    margin-right: 0;
+}
+
+/* rest of grid code goes here... */
+
+.one-col {
+  width: 6.958%;
+}
+
+.two-col {
+  width: 15.41%;
+}
+
+.three-col {
+  width: 23.87%;
+}
+
+.four-col {
+  width: 32.33%;
+}
+
+.five-col {
+  width: 40.79%;
+}
+
+.six-col {
+  width: 49.25%;
+}
+
+.seven-col {
+  width: 57.70%;
+}
+
+.eight-col {
+  width: 66.16%;
+}
+
+.nine-col {
+  width: 74.62%;
+}
+
+.ten-col {
+  width: 83.08%;
+}
+
+.eleven-col {
+  width: 91.54%;
+}
+
+.twelve-col {
+  width: 100%;
+}
+
+/* Off-set Code */
+.one-offset {
+  margin-left: 8.458%;
+}
+
+.two-offset {
+  margin-left: 16.91%;
+}
+
+.three-offset {
+  margin-left: 25.37%;
+}
+
+.four-offset {
+  margin-left: 33.83%;
+}
+
+.five-offset {
+  margin-left: 42.29%;
+}
+
+.six-offset {
+  margin-left: 50.75%;
+}
+
+.seven-offset {
+  margin-left: 59.20%;
+}
+
+.eight-offset {
+  margin-left: 67.66%;
+}
+
+.nine-offset {
+  margin-left: 76.12%;
+}
+
+.ten-offset {
+  margin-left: 84.58%;
+}
+
+.eleven-offset {
+  margin-left: 91.54%;
+}
+
+/* Coloring Code
+.grid {
+    background-color: #999;
+}
+
+.row {
+    background-color: #BBB;
+}
+
+[class*="-col"] {
+    background-color: #EEE;
+}
+ */
+
+/* Media Queries */ 
+
+@media all and (max-width: 768px) {
+  [class*="-col"] {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .row:last-child > [class*="-col"]:last-child {
+    margin-bottom: 0;
+  }
+
+  [class*="-offset"] {
+    margin-left: 0;
+  }
+
+  .row {
+    margin: 0;
+  }
+}
+
+/* Constraining to large screens
+.grid {
+  max-width: 960px;
+}*/
+
+/* Making Top Navigation Responsive */
+
+@media screen and (max-width: 960px) {  
+    nav {   
+        height: auto;  
+    }  
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }  
+    nav li {  
+        width: 50%;  
+        float: left;  
+        position: relative;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+        border-right: 1px solid #576979;  
+    }  
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px;  
+    }  
+}  
+
+/* Part 2 */
+@media only screen and (max-width : 480px) {
+  nav {
+    border-bottom: 0;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav a#pull {
+    display: block;
+    background-color: #283744;
+    width: 100%;
+    position: relative;
+  }
+  nav a#pull:after {
+    content:"";
+    background: url('nav-icon.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+}
+
+/* Part 3 */
+@media only screen and (max-width : 320px) {
+  nav li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  nav li a {
+    border-bottom: 1px solid #576979;
+  }
+}
+
+/* Pricing Table */
+
+.tg  {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px auto;
+}
+
+.tg td {
+    font-family:Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break:normal;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.tg .tg-e3zv {
+    font-weight:bold
+}
+
+.tg .tg-vm6i {
+    font-weight:bold;
+}
+
+
+
+

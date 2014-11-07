@@ -6,98 +6,217 @@
 	<link rel="shortcut icon" type="image/x-icon"  href="img/favicon.ico">
 	<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
-	<title>Karma Landing Page Clone</title>
+	<title>Quby - The Answer You've Been Looking For</title>
+            <script type="text/javascript">
+            <!--
+                function toggle_visibility(id) {
+                   var e = document.getElementById(id);
+                   if(e.style.display == 'block')
+                      e.style.display = 'none';
+                   else
+                      e.style.display = 'block';
+                }
+            //-->
+        </script>
+
+        <style type="text/css">
+
+            #popupBoxOnePosition{
+                top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+                background-color: rgba(0,0,0,0.7); display: none;
+            }
+            .popupBoxWrapper{
+                width: 550px; margin: 50px auto; text-align: left;
+            }
+            .popupBoxContent{
+                background-color: #FFF; padding: 15px;
+            }
+
+        </style>
 </head>
 <body>
     <nav class="top-navigation">
         <div class="content">
         		    <ul class="links">
-			    <li class="active">Meet Karma</li>
-			    <li>How It works</li>
-			    <li>Store</li>
-			    <li>Blog</li>
-			    <li>Help</li>
-			    <li>Log in</li>
+			    <li><a href="#Home">Home</a></li>
+			    <li><a href="#How it Works">How it Works</a></li>
+			    <li><a href="#About Us">About Us</a></li>
+			    <li><a href="#Pricing">Pricing</a></li>
+			    <li><a href="#Contact Us">Contact Us</a></li>
 			</ul>
-		    		<img class="logo" src="img/karma-logo.svg" alt="Logo Image" width="26px" style="height: 70px">
+			</ul>
+		    		<img class="logo" src="img/quby-logo.png" alt="Logo Image" style="height: 70px">
 		</div>
     </nav>
+<a name="Home">
 <section class="introduction">
+	</a>
     <div class="content">
-        <h1>Introducing Karma</h1>
-        <h3>Bring WiFi with you, everywhere you go.</h3>
+        <h1>Introducing Quby</h1>
+        <h3>Quby is an on-screen assistant that offers meeting organisers a new solution to efficiently manage questions from a live audience.
+        </br>
+        </br>
+        We believe in using technology to make life smarter... and Quby does just that.</h3>
         <div class="buttons">
             <div class="half learn">
-                <button>Learn More</button>
+                <button><a href="#How it Works">Learn More</a></button>
             </div>
             <div class="half watch">
                 <span>
-                    <img src="img/play-icon.svg" width="35px" height="35px" alt="">
-                    Watch the video
+                        <div id="popupBoxOnePosition">
+            <div class="popupBoxWrapper">
+                <div class="popupBoxContent">
+                    <video width="100%" controls>
+                    <source src="img/movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video>
+                    <p>Click <a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">here</a> to close this window</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="wrapper">
+
+            <p><a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');"><img src="img/play-icon.svg" width="35px" height="35px" alt="Quby Video">Watch the video</a></p>
+
+        </div>
                 </span>
             </div>
         </div>
     </div>
 </section>
-    <section class="cases">
+<a name="How it Works">
+    <section class="process">
+    </a>
         <div class="content">
-            <h2>Everyone needs a little Karma.</h2>
-            <ul class="devices">
-                <li>
-                    <img width="127px" height="127px" src="img/icon-devices.svg" alt="Internet for all devices image">
-                    <div class="caption">
-                        <h3>Internet for all devices</h3>
-                        <p>Connect all your favorite devices to Karma.</p>
-                    </div>
-                </li>
-                <li>
-                    <img width="127px" height="127px" src="img/icon-coffee.svg" alt="Boost your productivity image">
-                    <div class="caption">
-                        <h3>Boost your productivity</h3>
-                        <p>Freedom of the internet, wherever you are.</p>
-                    </div>
-                </li>
-                <li>
-                    <img width="127px" height="127px" src="img/icon-refill.svg" alt="Pay as You Go image">
-                    <div class="caption">
-                        <h3>Pay as You Go</h3>
-                        <p>Take full control of your spend. Pay for what you need.</p>
-                    </div>
-                </li>
-            </ul>
+                <h2>How it Works</h2>
+                </br>
+                        <section class="grid">
+    <div class="row">
+        <div class="four-col">
+            <img width="127px" height="127px" src="img/presenter.svg" alt="Present with ease">
+                        <h3>Present your talk with ease...</h3>
+                        <p>Whether you're presenting in a classroom, a boardroom or a public hall, install Quby on your desktop and let it be your digital moderator.</p>
+            </p>
+        </div>
+        <div class="four-col">
+            <p><img width="127px" height="127px" src="img/texting.png" alt="Audience sends in their questions">
+                        <h3>...while Quby takes questions...</h3>
+                        <p>Your listeners can go online and send in their questions using the unique URL for your presentation session and Quby will add them to the queue.</p>
+            </p>
+        </div>
+        <div class="four-col">
+            <p><img width="127px" height="127px" src="img/solved.svg" alt="Resolve quickly and clearly">
+                        <h3>...that you can answer quickly and clearly</h3>
+                        <p>Go through the queue and address your listeners' questions more efficiently, saving everyone's time.</p>
+            </p>
+        </div>
         </div>
     </section>
-	    <section class="karma">
+    </div>
+    </section>
+    <hr>
+	    <a name="About Us" style='position: absolute; margin-top: -70px;'>
+	    <section class="about">
+	    </a>
+	    	<div class="content">
+	    			<h2>About Us</h2>
+        <div class="buttons">
+            <div class="half text">
+                <p>We are a team of four developers and marketers, who came together to solve the same problem we all have faced as participants of thousands of presentations:</p>
+                </br>
+                <p>How can we make sure the presenter can hear us loud and clear when we're part of a large audience?</p>
+                </br>
+                <p>Tired of not being seen or heard when we've raised our hands, and unsatisfied with the ineffictiveness of current solutions, we came up with Quby: a simple and convenient digital moderator for large audiences.</p>
+                </br>
+                <p>Some background about our team: we're two summer graduates from Stanford University, another graduate from West Chester University, and a soon-to-be grad of Waterloo University.</p>
+                </br>
+                <p>A notable Stanford professor of entrepreneurship also sits on our advisory board.</p>
+                </div>
+            <div class="half image">
+                <span>
+   	    			<img style="margin: 0px 0px 15px 15px;" src="img/mouse.jpg" width="600px" />
+                </span>
+            </div>
+        </div>
+
+	    			</div>
+	    </div>
+    </section>
+    <hr>
+<a name="Pricing" style='position: absolute; margin-top: -70px;'>
+    <section class="pricing">
+    </a>
 	    	<div class="content">
 	    		<aside>
-	    			<h3>What is Karma?</h3>
-	    			    <ul class="column">
-	    			    	<li>
-				    			<p>The search for reliable WiFi can be frustrating. During your commute, at your local coffee shop, at the airport or hotel.</p>
-				    			<p>Meet Karma: your pocket’s new pal. Karma will keep your devices online, everywhere you go.</p>
-				    			<p>Karma grabs a 4G signal and creates your own personal WiFi network. Give it a home in your bag and stay connected for good.</p>
-				    		</li>
-				    	</ul>
+	    			<h2>Pricing</h2>
+<table class="tg">
+  <tr>
+    <th class="tg-031e"></th>
+    <th class="tg-vm6i">Individual User</th>
+    <th class="tg-vm6i">Corporate User</th>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Number of Logins</td>
+    <td class="tg-031e">Single</td>
+    <td class="tg-031e">Unlimited</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Installation</td>
+    <td class="tg-031e">Self-served</td>
+    <td class="tg-031e">Provided</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Ad-free</td>
+    <td class="tg-031e">No</td>
+    <td class="tg-031e">Yes</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Spam Reporting</td>
+    <td class="tg-031e">No</td>
+    <td class="tg-031e">Yes</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Data Insights</td>
+    <td class="tg-031e">No</td>
+    <td class="tg-031e">Yes</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Custom Domain</td>
+    <td class="tg-031e">No</td>
+    <td class="tg-031e">Yes</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Customer Support</td>
+    <td class="tg-031e">Online</td>
+    <td class="tg-031e">Online and phone</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Trial Period</td>
+    <td class="tg-031e">None</td>
+    <td class="tg-031e">14 days</td>
+  </tr>
+  <tr>
+    <td class="tg-e3zv">Monthly Price per User</td>
+    <td class="tg-031e">Free</td>
+    <td class="tg-031e">2 to 20 users: <br>$10 / month, OR $108 / year <br>21-99 users: <br>$9 / month OR $97 / year<br>100-500 users: <br>$8 / month OR $86 / year<br>500+ users: <br>contact us for a quote</td>
+  </tr>
+</table>
 				</aside>
 	    </div>
     </section>
+<a name="Contact Us">
     <footer class="social">
+    </a>
         <div class="content">
             <hr>
-            <h5>Join us on</h5>
-            <ul class="icons">
-                <li class="twitter">
-                    <i class="fa fa-twitter"></i>
-                </li>
-                <li class="facebook">
-                    <i class="fa fa-facebook"></i>
-                </li>
-                <li class="instagram">
-                    <i class="fa fa-instagram"></i>
-                </li>
-            </ul>
+            <h2>Contact Us</h2>
+			<p>For more information, please <a href="mailto:imsabakarim@gmail.com ">send us an email</a></p>
+			</br>
             <span class="copy">
-                &copy; Karma Mobility, Inc.
+                &copy; Quby.
             </span>
         </div>
     </footer>
