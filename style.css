@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
 	line-height: 1;
 }
@@ -62,7 +62,7 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-    color: #d9400e;
+    color: #4a3941;
 }
 /* selected link */
 a:active {
@@ -99,7 +99,7 @@ a {
 	width: 970px;
 	margin: 0 auto;
 	padding: 0px 15px;
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Pontano Sans', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
@@ -133,17 +133,18 @@ a {
 }
 .introduction h1,
 .introduction h3 {
+    font-family: 'Patua One', cursive;
     text-align: center;
     font-weight: 300;
 }
 .introduction h1 {
     color:#2c72f1;
-    margin-top: 150px;
+    margin-top: 180px;
     font-size: 50px;
 }
 .introduction h3 {
     color:white;
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 25px;
 }
 .introduction a:link {
@@ -218,8 +219,8 @@ a {
     font-size: 18px;
 }
 .introduction .learn button:hover {
-    background-color: #d9400e;
-    border-color: #d9400e;
+    background-color: #4a3941;
+    border-color: #4a3941;
     cursor: pointer;
 }
 
@@ -237,6 +238,7 @@ a {
     text-align: center;
 }
 .process h2 {
+    font-family: 'Patua One', cursive;
     color:#2c72f1;
     font-size: 44px;
     margin: 26px 0 50px;
@@ -255,7 +257,7 @@ a {
 }
 .process p {
     font-weight: 300;
-    font-size: 21px;
+    font-size: 18px;
 }
 /* About Us Section */
 .about {
@@ -273,6 +275,7 @@ a {
     line-height: 1.2;
 }
 .about h2 {
+    font-family: 'Patua One', cursive;
     color:#2c72f1;
     font-size: 44px;
     margin: 26px 0 50px;
@@ -300,6 +303,7 @@ aside {
     width: 50%;
 }
 .pricing h2 {
+    font-family: 'Patua One', cursive;
     text-align: center;
     color:#2c72f1;
     margin-top: 80px;
@@ -318,6 +322,7 @@ aside {
 
 /* Footer */
 .social h2 {
+    font-family: 'Patua One', cursive;
     color:#2c72f1;
     font-size: 44px;
     margin: 26px 0 50px;
@@ -536,71 +541,6 @@ aside {
   max-width: 960px;
 }*/
 
-/* Making Top Navigation Responsive */
-
-@media screen and (max-width: 960px) {  
-    nav {   
-        height: auto;  
-    }  
-    nav ul {  
-        width: 100%;  
-        display: block;  
-        height: auto;  
-    }  
-    nav li {  
-        width: 50%;  
-        float: left;  
-        position: relative;  
-    }  
-    nav li a {  
-        border-bottom: 1px solid #576979;  
-        border-right: 1px solid #576979;  
-    }  
-    nav a {  
-        text-align: left;  
-        width: 100%;  
-        text-indent: 25px;  
-    }  
-}  
-
-/* Part 2 */
-@media only screen and (max-width : 480px) {
-  nav {
-    border-bottom: 0;
-  }
-  nav ul {
-    display: none;
-    height: auto;
-  }
-  nav a#pull {
-    display: block;
-    background-color: #283744;
-    width: 100%;
-    position: relative;
-  }
-  nav a#pull:after {
-    content:"";
-    background: url('nav-icon.png') no-repeat;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    right: 15px;
-    top: 10px;
-  }
-}
-
-/* Part 3 */
-@media only screen and (max-width : 320px) {
-  nav li {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-  nav li a {
-    border-bottom: 1px solid #576979;
-  }
-}
 
 /* Pricing Table */
 
@@ -611,8 +551,8 @@ aside {
 }
 
 .tg td {
-    font-family:Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 16px;
     padding: 10px 15px;
     border-style: solid;
     border-width: 1px;
@@ -621,8 +561,8 @@ aside {
 }
 
 .tg th {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 16px;
     font-weight: normal;
     padding: 10px 15px;
     border-style: solid;
